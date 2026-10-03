@@ -1,0 +1,16 @@
+name: Feedback or idea
+description: Tell us what your logs need or what slowed you down
+labels: [feedback]
+body:
+  - type: dropdown
+    id: role
+    attributes:
+      label: Your role
+      options: [Document controller, Contractor, Consultant, Client / PMC, Other]
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would make K3 better for you?
+      description: Please don't paste confidential project information.
+    validations:
+      required: true

@@ -1,0 +1,20 @@
+name: Something doesn't work
+description: A wrong formula, a broken file, an error in Excel
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: input
+    id: excel
+    attributes:
+      label: Excel version
+      placeholder: e.g. Microsoft 365, Excel 2021
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Which template and which log? Attach your saved setup (.json) if you can. Remove confidential data first.
